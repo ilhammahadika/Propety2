@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:id="@+id/satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/foto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@android:drawable/sym_def_app_icon" />
+        <LinearLayout
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nama1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilham Mahadika"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilham.mahadhika@gmail.com"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama"
+                android:layout_below="@+id/image" />
+
+            <TextView
+                android:id="@+id/notelp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="082226461852"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/satu"
+        android:id="@+id/dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@android:drawable/sym_def_app_icon" />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/nama2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zeilin Audina"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/email2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zeilinaudinatjg@gmail.com"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama"
+                android:layout_below="@+id/image" />
+
+            <TextView
+                android:id="@+id/notelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="087868948865"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/dua"
+        android:id="@+id/tiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/foto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@android:drawable/sym_def_app_icon" />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nama3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M ikbal pratama putra"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/email3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ibalepratama@gmail.com"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/notelp"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama"
+                android:layout_below="@+id/image" />
+
+            <TextView
+                android:id="@+id/notelp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="081220467528"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignLeft="@+id/nama"
+                android:layout_alignStart="@+id/nama" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

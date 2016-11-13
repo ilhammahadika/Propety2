@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Property">
+        <menu>
+            <item
+                android:id="@+id/nav_bangunan"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Bangunan" />
+            <item
+                android:id="@+id/nav_rumah"
+                android:icon="@drawable/ic_account_balance_black_24dp"
+                android:title="Rumah" />
+            <item
+                android:id="@+id/nav_tanah"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tanah" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Login Admin" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_people_outline_black_24dp"
+            android:title="Tentang kami" />
+
+    </group>
+
+
+
+</menu>
