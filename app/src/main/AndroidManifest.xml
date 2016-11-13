@@ -33,7 +33,7 @@
 
         </activity>
         <activity android:name=".Tentang"
-            android:label="About"
+            android:label="Tentang Kami"
             android:theme="@style/AppTheme"
             android:parentActivityName=".MenuActivity">
             <meta-data
@@ -53,12 +53,14 @@
         <activity android:name=".Tanah"
             android:label="Menu Tanah"
             android:theme="@style/AppTheme"
-            android:parentActivityName=".MenuActivity">
+            android:parentActivityName=".MenuActivity"/>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MenuActivity"/>
+        <activity android:name=".Register"
+            android:label="Menu Register"
+            android:theme="@style/AppTheme"/>
 
-        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeilin.myapplication.MenuActivity"
+    tools:showIn="@layout/app_bar_menu">
+
+    <RelativeLayout
+        android:id="@+id/welcome_propety"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#036364"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp">
+
+
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Selamat Datang di PROPETY"
+            android:textColor="#ddd"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/awal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_title"
+            android:textColor="#ffff"
+            android:text="  Jual beli property secara online akan memudahkan masyarakat dalam melihat ketersediaan barang, seperti stok barang yang tersedia, barang apa saja yang dijual, bahkan bisa melihat sesuai kategori yang diinginkan.
+            Adanya aplikasi mobile berbasis android saat ini merupakan salah satu solusi masalah tersebut. Oleh karena itu, kami akan membuat aplikasi yang dapat menampilkan semua informasi barang berdasarkan kategorinya masing-masing. Aplikasi ini juga dapat memesan online barang-barang property yang tersedia pada aplikasi yang telah diinputkan oleh user. Dengan adanya aplikasi ini kami yakin dapat membantu masyarakat yang mempunyai usaha dalam bidang property dan sejenisnya."
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

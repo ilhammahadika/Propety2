@@ -50,6 +50,7 @@
         android:text="@string/register"
         android:layout_below="@+id/edtPassword"
         android:layout_centerHorizontal="true"
-        android:id="@+id/btn_register"/>
+        android:id="@+id/btn_register"
+        android:onClick="registerb"/>
 
 </LinearLayout>

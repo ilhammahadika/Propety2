@@ -7,6 +7,21 @@
     <string name="register">register</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="nama_tidak_boleh_kosong">Gagal menambahkan. Nama tidak boleh kosong.</string>
     <string name="action_settings">Settings</string>
+
+    <string name="k0">Roxy, Jakarta Pusat, DKI Jakarta</string>
+    <string name="k1">Cipete Jakarta Selatan</string>
+    <string name="k2">Puncak, Bogor, Jawa Barat</string>
+    <string name="k3">Serpong, Tangerang, Banten</string>
+    <string name="k4">Margonda, Depok, Jawa Barat</string>
+
+
+    <string name="m0">Rumah Murah di Petojo Roxy Jakarta Pusati</string>
+    <string name="m1">Rumah Hoek di Kawasan Elite </string>
+    <string name="m2">Villa Asri 3 Lantai di Tugu Cisarua Puncak Bogor</string>
+    <string name="m3">Rumah Hoek Asri SURADITA INDAH di SERPONG</string>
+    <string name="m4">Rumah Murah di Margonda Depok</string>
+
+
 </resources>

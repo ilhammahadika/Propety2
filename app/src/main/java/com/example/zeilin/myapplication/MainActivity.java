@@ -35,11 +35,11 @@ public class MainActivity extends AppCompatActivity{
                 if (v==btnLogin){
                     if (editEmail.getText().toString().equals(username)&&
                             editPassword.getText().toString().equals(pass)){
-                        Toast.makeText(MainActivity.this, "MainActivity Berhasil", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
                         startActivity(intent);
                     }else {
-                        Toast.makeText(MainActivity.this, "MainActivity Gagal", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Login Gagal", Toast.LENGTH_SHORT).show();
                     }
                     }
                     }
@@ -47,4 +47,10 @@ public class MainActivity extends AppCompatActivity{
         username="banyumas";
         pass="banyumas";
         }
+    public void registerb (View view){
+        Intent intent = new Intent(getApplicationContext(),Register.class);
+        startActivity(intent);
+    }
+
+
 }

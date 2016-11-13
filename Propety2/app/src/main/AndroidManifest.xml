@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zeilin.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Login Admin"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:parentActivityName=".MenuActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MenuActivity"/>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".MenuActivity" android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bangunan"
+            android:label="Menu Bangunan"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+
+        </activity>
+        <activity android:name=".Tentang"
+            android:label="About"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+
+        </activity>
+        <activity android:name=".Rumah"
+            android:label="Menu Rumah"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+
+        </activity>
+        <activity android:name=".Tanah"
+            android:label="Menu Tanah"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MenuActivity"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuActivity"/>
+
+    </application>
+
+</manifest>
